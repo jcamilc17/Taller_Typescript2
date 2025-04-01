@@ -12,6 +12,6 @@ Tabla que muestra id, nombre, canal y temporadas de cada serie.
 
 Cálculo del promedio de temporadas.
 
-Para más detalles, consulte el [Archivo del enunciado](./TallerTS1_Enunciado.docx)
+Para más detalles, descargue el [Archivo del enunciado](./TallerTS1_Enunciado.docx)
 .
 
