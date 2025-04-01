@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/juancamilocaldas/Taller_Typescript1",
+      "program": "/Users/juancamilocaldas/Taller_Typescript1/build/Debug/outDebug"
+    }
+  ]
+}
