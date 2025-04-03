@@ -10,20 +10,30 @@
 <body>
     <div style = "height: 3%; background-color: #24A2B8; font-family: Arial, Helvetica, sans-serif; font-size: large;">TV SERIES</div>
     <div style="width: 50%; margin: 1.25% 3% 3% 3%;">
-        <table class="table">
-            <thead>
+        <div class = "p-2" style="width: 50%; margin: 0% 3%;"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style = "font-weight: bold;">#</th>
+                        <th>Name</th> 
+                        <th>Channel</th>
+                        <th>Seasons</th>
+                    </tr>
+                </thead>
+                <tbody style="background-color:#F2F2F2;" id = "series"></tbody>
                 <tr>
-                    <th style = "font-weight: bold;">#</th>
-                    <th>Name</th> 
-                    <th>Channel</th>
-                    <th>Seasons</th>
+                    <td colspan="4" id = "promedio" style="width: 100%; margin: 4%; white-space: nowrap;"></td>
                 </tr>
-            </thead>
-            <tbody style="background-color:#F2F2F2;" id = "series"></tbody>
-            <tr>
-                <td colspan="4" id = "promedio" style="width: 100%; margin: 4%; white-space: nowrap;"></td>
-            </tr>
-        </table>
+            </table>
+        </div>
+        <div class="card p-2" style="width: 18rem; margin: 0.6%;">
+            <img class="card-img-top" id = "image" src="" style="max-width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title" id = "title"></h5>
+                <p class="card-text" id = "description"></p>
+                <a href="" id = "url"></a>
+            </div>
+        </div>
     </div>
     <script type="module" src="./scripts/main.js"></script>
     <script type="module" src="./scripts/data.js"></script>
