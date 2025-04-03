@@ -1,4 +1,4 @@
-# Taller TypeScript 1
+# Taller TypeScript 2
 
 Este repositorio contiene la solución al Taller TypeScript 1, donde se desarrolla una aplicación para gestionar series de televisión.
 
@@ -12,6 +12,6 @@ Tabla que muestra id, nombre, canal y temporadas de cada serie.
 
 Cálculo del promedio de temporadas.
 
-Para más detalles, descargue el [Archivo del enunciado](./TallerTS1_Enunciado.docx)
+Para más detalles, haga chequeo del [enunciado](TallerTS2_Enunciado)
 .
 
